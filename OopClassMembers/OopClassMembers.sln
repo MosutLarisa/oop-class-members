@@ -3,11 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopClassMembers", "OopClassMembers.csproj", "{90F19B4E-6E5A-419D-A5A7-F12BCBEF6F29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopClassMembers", "OopClassMembers.csproj", "{90F19B4E-6E5A-419D-A5A7-F12BCBEF6F29}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5DB5389F-491D-4B94-A7C8-86B4FB7A8DB2}"
 	ProjectSection(SolutionItems) = preProject
 		Class1.cs = Class1.cs
+		Class2.cs = Class2.cs
 	EndProjectSection
 EndProject
 Global
