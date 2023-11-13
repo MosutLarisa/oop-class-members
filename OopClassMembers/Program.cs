@@ -4,15 +4,19 @@
     {
         static void Main(string[] args)
         {
-            int maxiLifespan = Persons.MaxLifespanYears;
-            Persons p = new Persons();
+            int maxLifespan = Person.MaxLifespanYears;
+            Person p = new Person("2344");
+            p.FirstName = "Florin";
+
+            Console.WriteLine(Person.PopulationCount);
             Console.WriteLine(p.FirstName);
             Console.WriteLine(p.LastName);
-            Console.WriteLine(p.CNP);
+            Console.WriteLine(p.Cnp);
 
-            
-            Persons.PopulationCount = 1;
 
+            //Person.MaxLifespanYears
+            //p.CNP = "2344";
+            //Person.PopulationCount = 1;
         }
     }
 }
